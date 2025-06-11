@@ -1,5 +1,5 @@
 {
-  "name": "discord-web-rpc-backend",
+  "name": "100xrpc",
   "version": "1.0.0",
   "description": "Discord Web RPC Windows Service - 100xDevs Edition",
   "main": "src/server.js",
@@ -33,6 +33,6 @@
     "100xdevs",
     "windows-service"
   ],
-  "author": "Your Name",
+  "author": "Vikas",
   "license": "MIT"
 }
