@@ -1,0 +1,14 @@
+{
+  "discordClientId": "YOUR_DISCORD_CLIENT_ID",
+  "rpc": {
+    "details": "Browsing a website",
+    "state": "Active",
+    "largeImageKey": "icon128",
+    "largeImageText": "User Activity"
+  },
+  "server": {
+    "port": 7832,
+    "host": "localhost",
+    "wsPort": 7833
+  }
+}

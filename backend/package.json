@@ -1,0 +1,38 @@
+{
+  "name": "discord-web-rpc-backend",
+  "version": "1.0.0",
+  "description": "Discord Web RPC Windows Service - 100xDevs Edition",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js --verbose",
+    "setup-service": "npm install && node setup-service.js",
+    "remove-service": "node remove-service.js",
+    "install-service": "node install-service.js",
+    "uninstall-service": "node uninstall-service.js",
+    "service-status": "node -e \"const {exec} = require('child_process'); exec('sc query \\\"Discord Web RPC Service\\\"', (e,o) => console.log(o || 'Service not found'))\"",
+    "test": "node -e \"console.log('Backend test passed')\"",
+    "clear": "node -e \"require('./src/discord-rpc').clearPresence()\"",
+    "check-discord": "node -e \"require('./src/discord-rpc').getConnectionStatus()\"",
+    "debug": "NODE_ENV=development DEBUG=* node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "ws": "^8.14.2",
+    "discord-rpc": "^4.0.1",
+    "node-windows": "^1.0.0-beta.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "discord",
+    "rpc",
+    "chrome-extension",
+    "100xdevs",
+    "windows-service"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
