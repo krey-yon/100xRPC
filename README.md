@@ -261,7 +261,7 @@ MIT License - feel free to use this project for personal or educational purposes
 
 - **Issues**: [GitHub Issues](https://github.com/krey-yon/discord-web-rpc/issues)
 - **Discord**: [Discord](https://discord.gg/PGgpcXdqdw)
-- **Email**: your.email@example.com
+- **Email**: vikaskumar783588@gmail.com
 
 ## 🎓 About 100xDevs
 
