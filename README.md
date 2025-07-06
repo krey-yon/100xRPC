@@ -259,8 +259,8 @@ MIT License - feel free to use this project for personal or educational purposes
 
 ## 🆘 Support
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/discord-web-rpc/issues)
-- **Discord**: Join 100xDevs Discord for community support
+- **Issues**: [GitHub Issues](https://github.com/krey-yon/discord-web-rpc/issues)
+- **Discord**: [Discord](https://discord.gg/PGgpcXdqdw)
 - **Email**: your.email@example.com
 
 ## 🎓 About 100xDevs
